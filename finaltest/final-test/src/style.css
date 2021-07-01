@@ -1,0 +1,146 @@
+*{
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  font-family: 'Playfair Display SC', serif;
+}
+body{
+  background: rgba(0,33,71, 0.4);
+}
+
+@media(max-width: 700x){
+  body{
+    felx-wrap: wrap;
+  }
+}
+
+
+#header{ 
+    color: #fff;
+    width: 100%;
+    height: 90px;
+    background-color: rgba(0,33,71, 0.4);
+    backdrop-filter: blur(9px);
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+   
+}
+
+#navbar{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  
+}
+#navbar ul a{
+  font-size: 30px;
+  padding-top: 50px;
+  padding: 50px;
+  color: black;
+  text-decoration: none;
+  position: relative;
+  top: 9px;
+}
+
+#navbar ul a:hover{
+  color: #fff;
+}
+
+#welcome-section{
+   width: 100%;
+   position: absolute;
+   top: 10vw;
+   height: 100vh;
+   
+}
+#welcome-section img{
+  width: 35%;
+  border-radius: 50%;
+  position: relative;
+  left: 90px;
+  
+}
+#row{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#welcome{
+  position: relative;
+  top: 200px;
+  right: 300px;
+  
+}
+h1{
+  font-size: 50px;
+}
+h3{
+  font-size: 40px;
+}
+
+
+.project-tile{
+  font-size: 50px;
+  position: ralatiove;
+  top: 9px;
+}
+
+#projectss{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 70vw;
+  z-index: 2;
+}
+#projectss-col{
+   flex-basis: 32%;
+   border-radius: 10px;
+   margin-bottom: 0;
+   position: relative;
+   overflow: hidden;
+   text-align: center;
+   
+}
+#projectss-col img{
+  border-radius: 10px;
+  width: 100%;
+  height: 65%;
+}
+h3{
+  font-size: 20px;
+  position: relative;
+  top: 30px;
+}
+#projectss-col:hover{
+   color: green;
+   flex-basis: 32%;
+   border-radius: 10px;
+   margin-bottom: 20px;
+   position: relative;
+   overflow: hidden;
+   background-color: rgba(245,245,245, 0.4);
+}
+
+#projects{
+  width: 100%;
+  color: black;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 110vw;
+  z-index: 2;
+}
+
+#profile-link{
+  width: 100%;
+  position: relative;
+  left: 50px;
+  
+  
+}
+#profile-link img{
+  width: 10%;
+  padding: 90px; 
+}
